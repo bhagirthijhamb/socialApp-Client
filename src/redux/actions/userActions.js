@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export const loginUser = (userData, history) => (dispatch) => {
     dispatch({ type: LOADING_UI });
-    axios.post('/login', userData)
+    axios.post('https://cors-anywhere.herokuapp.com/https://us-central1-socialapp-b1819.cloudfunctions.net/api/login', userData)
         .then(res => {
             setAuthorizationHeader(res.data.token);
             dispatch(getUserData());
@@ -20,7 +20,7 @@ export const loginUser = (userData, history) => (dispatch) => {
 
 export const signupUser = (newUserData, history) => (dispatch) => {
     dispatch({ type: LOADING_UI });
-    axios.post('/signup', newUserData)
+    axios.post('https://cors-anywhere.herokuapp.com/https://us-central1-socialapp-b1819.cloudfunctions.net/api/signup', newUserData)
         .then(res => {
             setAuthorizationHeader(res.data.token);
             dispatch(getUserData());
@@ -43,11 +43,11 @@ export const logoutUser = () => (dispatch) => {
 
 export const getUserData = () => (dispatch) => {
     dispatch({ type: LOADING_USER });
-    axios.get('/user')
+    axios.get('https://cors-anywhere.herokuapp.com/https://us-central1-socialapp-b1819.cloudfunctions.net/api/user')
         .then(res => {
             dispatch({
                 type:SET_USER,
-                payload: res.data
+                payload: res.data // userData
             })
         })
         .catch(err => console.log(err));
@@ -55,7 +55,7 @@ export const getUserData = () => (dispatch) => {
 
 export const uploadImage = (formData) => (dispatch) =>{
     dispatch({ type: LOADING_USER });
-    axios.post('/user/image', formData)
+    axios.post('https://cors-anywhere.herokuapp.com/https://us-central1-socialapp-b1819.cloudfunctions.net/api/user/image', formData)
         .then(() => {
             dispatch(getUserData())
         })
@@ -64,7 +64,7 @@ export const uploadImage = (formData) => (dispatch) =>{
 
 export const editUserDetails = (userDetails) => (dispatch) => {
     dispatch({ type: LOADING_USER });
-    axios.post('/user', userDetails)
+    axios.post('https://cors-anywhere.herokuapp.com/https://us-central1-socialapp-b1819.cloudfunctions.net/api/user', userDetails)
     .then(() => {
         dispatch(getUserData());
     })
@@ -72,7 +72,7 @@ export const editUserDetails = (userDetails) => (dispatch) => {
 };
 
 export const markNotificationsRead = (notificationIds) => dispatch => {
-    axios.post('/notifications', notificationIds)
+    axios.post('https://cors-anywhere.herokuapp.com/https://us-central1-socialapp-b1819.cloudfunctions.net/api/notifications', notificationIds)
         .then(res => {
             dispatch({
                 type: MARK_NOTIFICATIONS_READ

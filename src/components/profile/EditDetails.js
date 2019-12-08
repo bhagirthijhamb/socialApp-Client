@@ -80,7 +80,7 @@ class EditDetails extends Component {
                 </MyButton>
                 <Dialog
                     open={this.state.open}
-                    onClose={this.handleChange}
+                    onClose={this.handleClose}
                     fullWidth
                     maxWidth='sm'>
                         <DialogTitle>Edit your details</DialogTitle>
@@ -102,7 +102,7 @@ class EditDetails extends Component {
                                 name='website'
                                 type='text'
                                 label='Website'
-                                placeholder='Your personal/ perofessional website'
+                                placeholder='Your personal/ professional website'
                                 className={classes.textField}
                                 value={this.state.website}
                                 onChange={this.handleChange}
