@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bhagirthijhamb/socialApp-Client/static/css/main.befdb12a.chunk.css",
-    "main.js": "/bhagirthijhamb/socialApp-Client/static/js/main.fbce3e90.chunk.js",
-    "main.js.map": "/bhagirthijhamb/socialApp-Client/static/js/main.fbce3e90.chunk.js.map",
-    "runtime-main.js": "/bhagirthijhamb/socialApp-Client/static/js/runtime-main.5ef118aa.js",
-    "runtime-main.js.map": "/bhagirthijhamb/socialApp-Client/static/js/runtime-main.5ef118aa.js.map",
-    "static/js/2.582532d7.chunk.js": "/bhagirthijhamb/socialApp-Client/static/js/2.582532d7.chunk.js",
-    "static/js/2.582532d7.chunk.js.map": "/bhagirthijhamb/socialApp-Client/static/js/2.582532d7.chunk.js.map",
-    "index.html": "/bhagirthijhamb/socialApp-Client/index.html",
-    "precache-manifest.3209276606c119acd238e6ae754042c8.js": "/bhagirthijhamb/socialApp-Client/precache-manifest.3209276606c119acd238e6ae754042c8.js",
-    "service-worker.js": "/bhagirthijhamb/socialApp-Client/service-worker.js",
-    "static/css/main.befdb12a.chunk.css.map": "/bhagirthijhamb/socialApp-Client/static/css/main.befdb12a.chunk.css.map"
+    "main.css": "/socialApp-Client/static/css/main.befdb12a.chunk.css",
+    "main.js": "/socialApp-Client/static/js/main.65727989.chunk.js",
+    "main.js.map": "/socialApp-Client/static/js/main.65727989.chunk.js.map",
+    "runtime-main.js": "/socialApp-Client/static/js/runtime-main.ec55094b.js",
+    "runtime-main.js.map": "/socialApp-Client/static/js/runtime-main.ec55094b.js.map",
+    "static/js/2.582532d7.chunk.js": "/socialApp-Client/static/js/2.582532d7.chunk.js",
+    "static/js/2.582532d7.chunk.js.map": "/socialApp-Client/static/js/2.582532d7.chunk.js.map",
+    "index.html": "/socialApp-Client/index.html",
+    "precache-manifest.6f91044eef8f3c962eca7d4163680c8f.js": "/socialApp-Client/precache-manifest.6f91044eef8f3c962eca7d4163680c8f.js",
+    "service-worker.js": "/socialApp-Client/service-worker.js",
+    "static/css/main.befdb12a.chunk.css.map": "/socialApp-Client/static/css/main.befdb12a.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ef118aa.js",
+    "static/js/runtime-main.ec55094b.js",
     "static/js/2.582532d7.chunk.js",
     "static/css/main.befdb12a.chunk.css",
-    "static/js/main.fbce3e90.chunk.js"
+    "static/js/main.65727989.chunk.js"
   ]
 }
