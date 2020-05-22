@@ -1,6 +1,6 @@
 {
   "name": "socialapp-client",
-  "homepage": "https://github.com/bhagirthijhamb/socialApp-Client",
+  "homepage": "https://github.com/bhagirthijhamb/socialApp-Client.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
