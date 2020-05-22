@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bhagirthijhamb/socialApp-Client/static/css/main.befdb12a.chunk.css",
-    "main.js": "/bhagirthijhamb/socialApp-Client/static/js/main.fbce3e90.chunk.js",
-    "main.js.map": "/bhagirthijhamb/socialApp-Client/static/js/main.fbce3e90.chunk.js.map",
-    "runtime-main.js": "/bhagirthijhamb/socialApp-Client/static/js/runtime-main.5ef118aa.js",
-    "runtime-main.js.map": "/bhagirthijhamb/socialApp-Client/static/js/runtime-main.5ef118aa.js.map",
-    "static/js/2.582532d7.chunk.js": "/bhagirthijhamb/socialApp-Client/static/js/2.582532d7.chunk.js",
-    "static/js/2.582532d7.chunk.js.map": "/bhagirthijhamb/socialApp-Client/static/js/2.582532d7.chunk.js.map",
-    "index.html": "/bhagirthijhamb/socialApp-Client/index.html",
-    "precache-manifest.3209276606c119acd238e6ae754042c8.js": "/bhagirthijhamb/socialApp-Client/precache-manifest.3209276606c119acd238e6ae754042c8.js",
-    "service-worker.js": "/bhagirthijhamb/socialApp-Client/service-worker.js",
-    "static/css/main.befdb12a.chunk.css.map": "/bhagirthijhamb/socialApp-Client/static/css/main.befdb12a.chunk.css.map"
+    "main.css": "/bhagirthijhamb/socialApp-Client.git/static/css/main.befdb12a.chunk.css",
+    "main.js": "/bhagirthijhamb/socialApp-Client.git/static/js/main.deacbead.chunk.js",
+    "main.js.map": "/bhagirthijhamb/socialApp-Client.git/static/js/main.deacbead.chunk.js.map",
+    "runtime-main.js": "/bhagirthijhamb/socialApp-Client.git/static/js/runtime-main.a266b934.js",
+    "runtime-main.js.map": "/bhagirthijhamb/socialApp-Client.git/static/js/runtime-main.a266b934.js.map",
+    "static/js/2.582532d7.chunk.js": "/bhagirthijhamb/socialApp-Client.git/static/js/2.582532d7.chunk.js",
+    "static/js/2.582532d7.chunk.js.map": "/bhagirthijhamb/socialApp-Client.git/static/js/2.582532d7.chunk.js.map",
+    "index.html": "/bhagirthijhamb/socialApp-Client.git/index.html",
+    "precache-manifest.d4d6e7ffcee4d1816340c0c6908f4bb8.js": "/bhagirthijhamb/socialApp-Client.git/precache-manifest.d4d6e7ffcee4d1816340c0c6908f4bb8.js",
+    "service-worker.js": "/bhagirthijhamb/socialApp-Client.git/service-worker.js",
+    "static/css/main.befdb12a.chunk.css.map": "/bhagirthijhamb/socialApp-Client.git/static/css/main.befdb12a.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.5ef118aa.js",
+    "static/js/runtime-main.a266b934.js",
     "static/js/2.582532d7.chunk.js",
     "static/css/main.befdb12a.chunk.css",
-    "static/js/main.fbce3e90.chunk.js"
+    "static/js/main.deacbead.chunk.js"
   ]
 }
