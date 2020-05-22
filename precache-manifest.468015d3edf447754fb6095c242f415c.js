@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aee5b888004b634dce0fd57554881727",
+    "revision": "24a9c425d8cab5054176694bb458a7c3",
     "url": "/bhagirthijhamb/socialApp-Client.git/index.html"
   },
   {
-    "revision": "3635708545ed71eed204",
+    "revision": "36788e82d450ee2a10ad",
     "url": "/bhagirthijhamb/socialApp-Client.git/static/css/main.befdb12a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bhagirthijhamb/socialApp-Client.git/static/js/2.582532d7.chunk.js"
   },
   {
-    "revision": "3635708545ed71eed204",
-    "url": "/bhagirthijhamb/socialApp-Client.git/static/js/main.deacbead.chunk.js"
+    "revision": "36788e82d450ee2a10ad",
+    "url": "/bhagirthijhamb/socialApp-Client.git/static/js/main.15be3fc6.chunk.js"
   },
   {
     "revision": "8ec088f600bc4cf89c7c",
