@@ -42,7 +42,7 @@ class App extends Component {
     return (
       // <MuiThemeProvider theme={theme}>
       <Provider store={store}>
-          <Router basename="/socialapp-client">
+          <Router basename="/">
             <Navbar />
             <div className='container'>
               <Switch>
